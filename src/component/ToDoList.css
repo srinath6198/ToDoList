@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.todolist{
+    width: 100%;
+
+}
+.p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.todolist-box{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+
+}
+.todolist-right{
+    border: 1px solid gray;
+    width: 70%;
+    border-radius: 10px;
+}
+.btn{
+    display: flex;
+    margin: 10px;
+    justify-content: end;
+    gap: 10px;
+}
+.btn button{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-add{
+    background-color: blue;
+    color: white;   
+    font-weight: 400;
+    font-size: 14px;
+}
+.btn-save{
+    background-color:green;                             
+    color: white;   
+    font-weight: 400;
+    font-size: 14px;
+}
+.todolist-qa{
+    border: 1px solid gray;
+    /* width: 60%; */
+    padding: 2px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.del-icon{
+    display: flex;
+    justify-content: end;
+    color: red;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.todo-form{
+    /* display: flex;  */
+    padding: 10px;
+    
+}
+
+.todo-form input{
+    border: 1px solid gray;
+    width: 100% !important;
+    padding: 10px;
+    /* margin: 10px; */
+    border-radius: 5px;
+}
+
+
+.todolist-left{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+   
+}
+.qa-item{
+    /* text-decoration: none; */
+    /* gap: 10px; */
+    margin-bottom: 10px;
+}
+ul li {
+    list-style-type: none;
+    
+}
+.qa-content{
+    padding: 7px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: rgb(225, 222, 222);
+}
