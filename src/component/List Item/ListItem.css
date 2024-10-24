@@ -1,0 +1,41 @@
+.list-item{
+    width: 100%;
+    padding: 10px;
+}
+.list-item h2{
+    text-align: center;
+}
+.add-step{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+
+}
+.add-step button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(237, 195, 144);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.list-step{
+    border: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+}
+.list-step-input{
+    width: 100%;
+    padding: 10px;
+}
+.line{
+    border: 1px solid black;
+    height: 40px;
+    /* margin-left: 40%; */
+}
+.list-step-input input{
+    width: 70%;
+    padding: 15px;
+}
